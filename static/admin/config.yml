@@ -10,7 +10,7 @@ backend:
   auth_endpoint: /api/auth
   squash_merges: true
   preview_context: 'cloudflare preview deploy'
-media_folder: "static/img"
+media_folder: "assets/img"
 public_folder: "/img"
 collections:
   - name: articles
