@@ -1,6 +1,6 @@
 ---
 title: Chinese Test
-date: 2025-02-15T14:12:00.000Z
+date: 2025-02-15
 description: 这是一个副标题
 slug: test-chinese
 image: helena-hertz-wWZzXlDpMog-unsplash.jpg

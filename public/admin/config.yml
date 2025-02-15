@@ -4,23 +4,29 @@ publish_mode: editorial_workflow
 show_preview_links: true
 backend:
   name: github
-  repo: user/repository
+  repo: Danielxxf/my-blog
   branch: main
   base_url: https://blog.danielxxf.site
   auth_endpoint: /api/auth
   squash_merges: true
   preview_context: 'cloudflare preview deploy'
-media_folder: "static/uploads"
-public_folder: "/uploads"
+media_folder: "assets/img"
+public_folder: "/img"
 collections:
   - name: articles
     label: Articles
-    folder: "content/articles"
+    folder: "content"
     create: true
     slug: "{{slug}}"
     preview_path: '{{slug}}'
+    nested:
+      depth: 100 # max depth to show in the collection tree
+      summary: '{{title}}' # optional summary for a tree node, defaults to the inferred title field
     editor:
       preview: true
     fields:
-      - { name: "title", label: "Title", widget: "string" }
-      - { name: "body", label: "Body", widget: "markdown" }
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Intro Blurb", name: "description", widget: "text"}
+      - {label: "Image", name: "image", widget: "image", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
