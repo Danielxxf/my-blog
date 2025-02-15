@@ -29,4 +29,5 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Intro Blurb", name: "description", widget: "text"}
       - {label: "Image", name: "image", widget: "image", required: false}
+      - {label: "Categories", name: "categories", widget: "list", allow_add: true, required: false}
       - {label: "Body", name: "body", widget: "markdown"}
