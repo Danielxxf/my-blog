@@ -3,11 +3,7 @@ title: Chinese Test
 date: 2025-02-15
 description: 这是一个副标题
 slug: test-chinese
-<<<<<<< HEAD
 image: "/img/helena-hertz.jpg"
-=======
-image: /img/48150158.jpg
->>>>>>> 3abfb81e3382328d8a3e39b9b7b86a8934d65276
 categories:
   - Test
   - 测试
