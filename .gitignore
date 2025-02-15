@@ -1,6 +1,6 @@
 # Hugo 生成的静态站点目录
 public/
-resources/_gen/  # Hugo 资源缓存
+resources/_gen
 
 # 系统文件
 .DS_Store
