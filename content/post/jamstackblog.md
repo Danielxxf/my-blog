@@ -7,7 +7,7 @@ image: /img/helena-hertz.jpg
 categories:
   - Jamstack
   - Aigc
-  - ttt
+  - tttt
 ---
 
 测试
