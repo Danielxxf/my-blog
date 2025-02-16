@@ -1,8 +1,8 @@
-baseurl = "https://example.com/"
+baseurl = "https://blog.danielxxf.site/"
 languageCode = "zh-cn"
 theme = "stack"
-title = "Example Site"
-copyright = "Example Person"
+title = "Danielxxf's blog"
+copyright = "Danielxxf"
 DefaultContentLanguage = "zh-cn"
 hasCJKLanguage = false
 
@@ -12,7 +12,7 @@ title = "Danielxxf's blog"
 weight = 1
 
 [languages.zh-cn.params.sidebar]
-subtitle = "Danielxxf's blog"
+subtitle = "折腾和思考"
 
 [services.disqus]
 shortname = "hugo-theme-stack"
