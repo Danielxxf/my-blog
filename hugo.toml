@@ -12,7 +12,7 @@ title = "Danielxxf's blog"
 weight = 1
 
 [languages.zh-cn.params.sidebar]
-subtitle = "折腾和思考"
+subtitle = "折腾与思考"
 
 [services.disqus]
 shortname = "hugo-theme-stack"
