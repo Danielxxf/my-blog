@@ -1,8 +1,9 @@
 ---
-title: AIGC
-slug: aigc
-description: Artificial intelligence generated content.
+title: Unity
+slug: unity
+description: Create and grow real-time 3D games, apps, and experiences for
+  entertainment, film, automotive, architecture, and more.
 style:
-  background: "#156efc"
-  color: "#ffffff"
+  background: "#ffffff"
+  color: "#000000"
 ---
