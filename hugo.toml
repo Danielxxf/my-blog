@@ -25,6 +25,7 @@ pagerSize = 3
 [permalinks]
 post = "/p/:slug/"
 page = "/:slug/"
+categories = "/c/:slug/"
 
 
 [params]
