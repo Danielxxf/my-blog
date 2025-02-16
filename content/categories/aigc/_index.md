@@ -1,5 +1,5 @@
 ---
-title: aigc
+title: AIGC
 slug: aigc
 description: Artificial intelligence generated content.
 style:
