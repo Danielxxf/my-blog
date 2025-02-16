@@ -15,7 +15,7 @@ public_folder: "/img"
 collections:
   - name: articles
     label: Articles
-    folder: "content"
+    folder: "content/post"
     create: true
     slug: "{{slug}}"
     preview_path: '{{slug}}'
@@ -32,3 +32,19 @@ collections:
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Categories", name: "categories", widget: "list", allow_add: true, required: false}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: categories
+    label: Categories
+    folder: "content/categories"
+    create: true
+    slug: "{{slug}}"
+    preview_path: '{{slug}}'
+    nested:
+      depth: 100 # max depth to show in the collection tree
+      summary: '{{title}}' # optional summary for a tree node, defaults to the inferred title field
+    editor:
+      preview: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Slug", name: "slug", widget: "string"}
+      - {label: "Intro Blurb", name: "description", widget: "text"}
+      - {label: "Image", name: "image", widget: "image", required: false}
