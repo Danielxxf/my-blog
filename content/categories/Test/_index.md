@@ -1,9 +1,11 @@
 ---
-title: Test
-slug: test
-description: This is an example category
+title: Jamstack
+slug: jamstack
+description: Jamstack is an architectural approach that decouples the web
+  experience layer from data and business logic, improving flexibility,
+  scalability, performance, and maintainability.
 image: hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg
 style:
-  background: "#a6b988"
-  color: "#f08484"
+  background: "#ef0580"
+  color: "#ffffff"
 ---
