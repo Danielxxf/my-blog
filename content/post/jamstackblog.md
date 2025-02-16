@@ -6,7 +6,6 @@ description: 本篇文章将详细介绍如何利用 Hugo、Decap CMS、GitHub �
 image: /img/helena-hertz.jpg
 categories:
   - Jamstack
-  - AIGC
 ---
 
 测试
