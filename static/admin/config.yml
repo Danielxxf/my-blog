@@ -48,3 +48,10 @@ collections:
       - {label: "Slug", name: "slug", widget: "string"}
       - {label: "Intro Blurb", name: "description", widget: "text"}
       - {label: "Image", name: "image", widget: "image", required: false}
+      - label: "Style" 
+        name: "style"
+        widget: "object"
+        required: false, 
+        fields:
+          - { label: Background, name: background, widget: color, required: false}
+          - { label: Color, name: color, widget: color, required: false}
