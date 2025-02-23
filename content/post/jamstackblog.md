@@ -24,7 +24,7 @@ git init
 # 这里我使用的是 stack 主题
 git submodule add https://github.com/CaiJimmy/hugo-theme-stack.git themes/stack
 # 设置主题为 stack
-echo "theme = 'ananke'" >> hugo.toml
+echo "theme = 'stack'" >> hugo.toml
 ```
 
 ### 添加 Decap CMS
