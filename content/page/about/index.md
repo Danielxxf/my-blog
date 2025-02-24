@@ -1,6 +1,6 @@
 ---
 title: About
-description: Hugo, the world's fastest framework for building websites
+description: 关于
 date: '2019-02-28'
 aliases:
   - about-us
@@ -14,6 +14,8 @@ menu:
         params:
             icon: user
 ---
+
+之前有一段时间很忙，忘了给服务器续费，之前做游戏开发时记录的内容全没了(T_T)，所以这次搭建博客采用 Jamstack 架构并将内容存储在 GitHub 通过 Cloudflare Pages 来访问，这样全程不需要用到服务器，能够做到持久化存储。
 
 Written in Go, Hugo is an open source static site generator available under the [Apache License 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
 
