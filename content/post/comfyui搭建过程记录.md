@@ -34,10 +34,10 @@ cd pathtocomfyui\python_embedded
 .\python.exe -m pip install -U gitpython
 ```
 
-![产品原图](/img/comfyui-product-image-1.webp)
+![产品原图](/img/comfyui-product-image-1.webp "产品原图")
 
-![AI 生成背景](/img/comfyui-product-image-2.webp)
+![AI 生成背景](/img/comfyui-product-image-2.webp "AI 生成背景")
 
-![现有背景](/img/comfyui-product-image-3.webp)
+![现有背景](/img/comfyui-product-image-3.webp "现有背景")
 
-![现有背景替换](/img/comfyui-product-image-4.webp)
+![现有背景替换](/img/comfyui-product-image-4.webp "现有背景替换")
