@@ -7,9 +7,15 @@ image: /img/comfyui-product-image.webp
 categories:
   - AIGC
 ---
-## 选用模型
+## 核心参数
 
-iclight_sd15_fc_uset_Idm
+核心思路就是**抠图（原产品图）-> 放置到准备好的背景（另一张图片的背景的或者是 AI 生成的都可以）-> 打光、重绘**
+
+### 模型
+
+**Flux.1** -- 重绘的核心模型，经处理的图片质量高
+**Realistic Vision V6.0 B1** -- iclight的前置模型，重绘图片的真实感
+**iclight_sd15_fc_uset_Idm** -- 重新打光
 
 ## 工作流
 
@@ -33,12 +39,21 @@ Modify "ComfyUI-NAI-styler" in "naistyler_nodes.py" to "ComfyUI-Universal-Styler
 cd pathtocomfyui\python_embedded
 .\python.exe -m pip install -U gitpython
 ```
+
 ## 作品
+
 ### 产品原图
+
 ![产品原图](/img/comfyui-product-image-1.webp "产品原图")
+
 ### AI 生成背景
+
 ![AI 生成背景](/img/comfyui-product-image-2.webp "AI 生成背景")
+
 ### 现有背景
+
 ![现有背景](/img/comfyui-product-image-3.webp "现有背景")
+
 ### 现有背景替换
+
 ![现有背景替换](/img/comfyui-product-image-4.webp "现有背景替换")
