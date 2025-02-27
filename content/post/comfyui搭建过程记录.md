@@ -19,7 +19,9 @@ categories:
 
 ## 工作流
 
-待更新
+### 总览
+
+![](/img/comfyui-product-image-workflow.webp)
 
 ## 遇到的问题
 
