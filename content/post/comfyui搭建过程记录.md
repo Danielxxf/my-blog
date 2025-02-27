@@ -19,6 +19,10 @@ categories:
 
 ## 工作流
 
+### 总览
+
+![](/img/comfyui-product-image-workflow.webp)
+
 ## 遇到的问题
 
 ### 图片经过 Ksampler 之后尺寸发生变化（长宽从 750 变成 744）
