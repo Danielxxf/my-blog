@@ -13,9 +13,9 @@ categories:
 
 ### 模型
 
-**Flux.1** -- 重绘的核心模型，经处理的图片质量高
-**Realistic Vision V6.0 B1** -- iclight的前置模型，重绘图片的真实感
-**iclight_sd15_fc_uset_Idm** -- 重新打光
+**Flux.1** —— 重绘的核心模型，经处理的图片质量高。  
+**Realistic Vision V6.0 B1** —— iclight的前置模型，重绘图片的真实感。  
+**iclight_sd15_fc_uset_Idm** —— 重新打光。
 
 ## 工作流
 
